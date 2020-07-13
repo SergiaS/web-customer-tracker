@@ -1,0 +1,15 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/*
+*.class
+*.war
+*.jar
+*.ear
+out
+target
+*.iml
+log
+*.patch
+/src/resources/pictures/
+
+#for tests
+/src/main/java/com/luv2code/scratches/
