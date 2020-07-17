@@ -18,7 +18,6 @@ public class CustomerDAOImpl implements CustomerDAO {
 	@Autowired
 	private SessionFactory sessionFactory;
 
-	@Override
 	// let Spring manage starting and stopping the transactions
 	@Transactional
 	public List<Customer> getCustomers() {
@@ -27,8 +26,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 		Session currentSession = sessionFactory.getCurrentSession();
 
 		// create a query
-		Query<Customer> theQuery =
-				currentSession.createQuery("from Customer", Customer.class);
+		Query<Customer> theQuery = currentSession.createQuery("from Customer", Customer.class);
 
 		// execute query and get result list
 		List<Customer> customers = theQuery.getResultList();
