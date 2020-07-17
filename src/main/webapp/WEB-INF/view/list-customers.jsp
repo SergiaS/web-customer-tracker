@@ -12,8 +12,6 @@
 </head>
 <body>
 
-<%--    ${pageContext.request.contextPath}/resources/css/style.css--%>
-
     <div id="wrapper">
         <div id="header">
             <h2>CRM - Customer Relationship Manager</h2>
