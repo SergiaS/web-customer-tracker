@@ -32,9 +32,9 @@
 <%--    add a search box--%>
 
     <form:form action="search" method="get">
-        Search customer: <input type="text" name="theSearchName">
+        Search customer: <input type="text" name="theSearchName" />
 
-        <input type="submit" value="Search" class="add-button">
+        <input type="submit" value="Search" class="add-button" />
     </form:form>
 
 <%--            add our html table here--%>
